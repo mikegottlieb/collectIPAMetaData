@@ -122,14 +122,15 @@ def process_ipa(ipa_filename, verbose = False):
 
         plist_values = dict((k, parse.info_plist_data[k]) for k in plist_keys if k in parse.info_plist_data)
 
-        url_schemes = []
-        for url_type in parse.info_plist_data.get('CFBundleURLTypes', []):
-            for url_scheme in url_type.get('CFBundleURLSchemes', []):
-                url_schemes.append(url_scheme)
-
+        url_schemes_set = set([])
+        url_scheme_keys = ['CFBundleURLTypes', 'CFBundleURLTypes~iphone', 'CFBundleURLTypes~ipad']
+        for url_scheme_key in url_scheme_keys:
+            for url_type in parse.info_plist_data.get(url_scheme_key, []):
+                for url_scheme in url_type.get('CFBundleURLSchemes', []):
+                    url_schemes_set.add(url_scheme)
 
         result = plist_values.copy()
-        result['url_schemes'] = url_schemes
+        result['url_schemes'] = list(url_schemes_set)
         result['item_id'] = parse.itunes_meta_data['itemId']
         result['name'] = parse.itunes_meta_data['itemName']
 
