@@ -24,7 +24,7 @@ def loadMappings(filename):
         for mapping in mappings:
             for scheme in mapping['url_schemes']:
                 ids = result.get(scheme, [])
-                ids.append(mapping['item_id'])
+                ids.append(mapping['CFBundleIdentifier'])
                 result[scheme] = ids
 
     print_stats(result)

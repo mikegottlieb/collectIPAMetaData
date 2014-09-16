@@ -155,8 +155,9 @@ def process_ipas_in_list(file_list, verbose):
     results = []
     for file_name in file_list:
         result = process_ipa(file_name, verbose)
-        if result and len(result["url_schemes"]) > 0:
-            result["url_schemes"].sort()
+        if result:
+            if len(result["url_schemes"]) > 0:
+                result["url_schemes"].sort()
             results.append( result )
 
     results.sort(key=lambda bundle:("%s#%s" % (bundle["CFBundleIdentifier"], bundle.get("CFBundleVersion",""))).upper())
