@@ -3,7 +3,7 @@ import json
 import sys
 import optparse
 
-GENERIC_URL_SCHEMES = ["http", "https", "mailto", "sms"]
+GENERIC_URL_SCHEMES = ["http", "https", "mailto", "sms", "ftp", "feed", "sftp", "smb", "mms", "mmsh", "rtmp", "rtsp", "qr", "scan"]
 
 def main():
     optp = optparse.OptionParser('usage: %prog [options] file"')
