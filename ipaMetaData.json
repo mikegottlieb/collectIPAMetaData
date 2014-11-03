@@ -189,6 +189,27 @@
     ]
   }, 
   {
+    "CFBundleDisplayName": "Sunrise", 
+    "CFBundleExecutable": "sunrise-ios", 
+    "CFBundleIdentifier": "am.sunrise.ios", 
+    "CFBundleShortVersionString": "2.50", 
+    "CFBundleVersion": "2516", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 599114150, 
+    "name": "Sunrise Calendar - for Google Calendar, Exchange and for iCloud", 
+    "url_schemes": [
+      "fb292375587511410"
+    ]
+  }, 
+  {
     "CFBundleDisplayName": "Fatify", 
     "CFBundleExecutable": "Fatify", 
     "CFBundleIdentifier": "Apptly.Fatify", 
@@ -7281,6 +7302,26 @@
     "name": "Optimum", 
     "url_schemes": [
       "optimumiPhone"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Calm", 
+    "CFBundleExecutable": "calmapp", 
+    "CFBundleIdentifier": "com.calm.calmapp", 
+    "CFBundleShortVersionString": "1.8", 
+    "CFBundleVersion": "185", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "6.0", 
+    "UIDeviceFamily": [
+      1
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 571800810, 
+    "name": "Calm - Meditate, Sleep, Relax", 
+    "url_schemes": [
+      "fb242144125875100"
     ]
   }, 
   {
@@ -14544,6 +14585,24 @@
       "fb183442523144heritage", 
       "fb183442523144heritageshk", 
       "fotopedia+heritage"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Swarm", 
+    "CFBundleExecutable": "Swarm", 
+    "CFBundleIdentifier": "com.foursquare.robin", 
+    "CFBundleVersion": "1.1.0", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1
+    ], 
+    "item_id": 870161082, 
+    "name": "Swarm by Foursquare", 
+    "url_schemes": [
+      "fb638478102868791", 
+      "fscheckin", 
+      "swarm"
     ]
   }, 
   {
@@ -27053,6 +27112,24 @@
     ]
   }, 
   {
+    "CFBundleDisplayName": "MS Mobile", 
+    "CFBundleExecutable": "MS Mobile", 
+    "CFBundleIdentifier": "com.morganstanley.prod.ms-mobile", 
+    "CFBundleShortVersionString": "1.1.9", 
+    "CFBundleVersion": "1.1.9", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "6.0", 
+    "UIDeviceFamily": [
+      1
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 811512122, 
+    "name": "Morgan Stanley Wealth Management", 
+    "url_schemes": []
+  }, 
+  {
     "CFBundleDisplayName": "realtor.com", 
     "CFBundleExecutable": "Realtor", 
     "CFBundleIdentifier": "com.move.Realtor", 
@@ -27259,6 +27336,27 @@
       "VH1", 
       "VH1debug", 
       "fb151668731210"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Munchery", 
+    "CFBundleExecutable": "Muncheredux", 
+    "CFBundleIdentifier": "com.munchery.mobile", 
+    "CFBundleShortVersionString": "2.4.2", 
+    "CFBundleVersion": "100", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 517484130, 
+    "name": "Munchery - Food & Meal Delivery Service. Healthy Dining in San Francisco, Berkeley & Seattle.", 
+    "url_schemes": [
+      "fb169951919734897"
     ]
   }, 
   {
@@ -30160,6 +30258,22 @@
       "fb486779468060564", 
       "ionce"
     ]
+  }, 
+  {
+    "CFBundleDisplayName": "PagerDuty", 
+    "CFBundleExecutable": "PagerDuty", 
+    "CFBundleIdentifier": "com.pagerduty.PagerDuty", 
+    "CFBundleShortVersionString": "2.6.1", 
+    "CFBundleVersion": "17", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 594039512, 
+    "name": "PagerDuty", 
+    "url_schemes": []
   }, 
   {
     "CFBundleDisplayName": "Pandora", 
@@ -33670,6 +33784,30 @@
   {
     "CFBundleDisplayName": "Angry Birds", 
     "CFBundleExecutable": "AngryBirdsStarWars", 
+    "CFBundleIdentifier": "com.rovio.angrybirdsstarwars", 
+    "CFBundleShortVersionString": "1.5.3", 
+    "CFBundleVersion": "1.5.3", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "4.3", 
+    "UIDeviceFamily": [
+      1
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "opengles-2", 
+      "armv7"
+    ], 
+    "item_id": 557137623, 
+    "name": "Angry Birds Star Wars", 
+    "url_schemes": [
+      "angrybirds-starwars", 
+      "com.rovio.angrybirdsstarwars", 
+      "com.rovio.angrybirdsstarwars-1.5.3", 
+      "fb620493414640363starwars"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Angry Birds", 
+    "CFBundleExecutable": "AngryBirdsStarWars", 
     "CFBundleIdentifier": "com.rovio.angrybirdsstarwarsfree", 
     "CFBundleShortVersionString": "1.5.3", 
     "CFBundleVersion": "1.5.3", 
@@ -37163,6 +37301,24 @@
     ]
   }, 
   {
+    "CFBundleDisplayName": "StrongLifts", 
+    "CFBundleExecutable": "StrongLifts", 
+    "CFBundleIdentifier": "com.StrongLifts", 
+    "CFBundleShortVersionString": "2.2.6", 
+    "CFBundleVersion": "2.2.6", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 488580022, 
+    "name": "StrongLifts 5x5 Workout", 
+    "url_schemes": []
+  }, 
+  {
     "CFBundleDisplayName": "7 Minutes", 
     "CFBundleExecutable": "7MinuteWorkout", 
     "CFBundleIdentifier": "com.stuartkhall.7minuteworkout", 
@@ -37586,6 +37742,27 @@
     "url_schemes": [
       "fb439505206066620paid", 
       "skyviewfreeexploretheuniverse"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Taco Bell", 
+    "CFBundleExecutable": "ARgame", 
+    "CFBundleIdentifier": "com.tacobell.ARgame", 
+    "CFBundleShortVersionString": "3.0.0", 
+    "CFBundleVersion": "481", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 497387361, 
+    "name": "Taco Bell", 
+    "url_schemes": [
+      "fb1406793636216257", 
+      "tacobell"
     ]
   }, 
   {
