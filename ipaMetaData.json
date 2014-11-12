@@ -17128,6 +17128,26 @@
     ]
   }, 
   {
+    "CFBundleDisplayName": "Docs", 
+    "CFBundleExecutable": "Docs", 
+    "CFBundleIdentifier": "com.google.Docs", 
+    "CFBundleShortVersionString": "1.1.4", 
+    "CFBundleVersion": "1.1.4", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 842842640, 
+    "name": "Google Docs", 
+    "url_schemes": [
+      "com.google.sso.263492796725", 
+      "googledocs", 
+      "googledocs-v2"
+    ]
+  }, 
+  {
     "CFBundleIdentifier": "com.google.Drive", 
     "CFBundleShortVersionString": "1.1.1", 
     "CFBundleVersion": "1.1.1.1903", 
@@ -17822,6 +17842,46 @@
       "comgooglemaps-x-callback", 
       "comgooglemapsulr", 
       "googlemaps"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Sheets", 
+    "CFBundleExecutable": "Sheets", 
+    "CFBundleIdentifier": "com.google.Sheets", 
+    "CFBundleShortVersionString": "1.1.3", 
+    "CFBundleVersion": "1.1.3", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 842849113, 
+    "name": "Google Sheets", 
+    "url_schemes": [
+      "com.google.sso.1082607815231", 
+      "googlesheets", 
+      "googlesheets-v2"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Slides", 
+    "CFBundleExecutable": "Slides", 
+    "CFBundleIdentifier": "com.google.Slides", 
+    "CFBundleShortVersionString": "1.0.3", 
+    "CFBundleVersion": "1.0.3", 
+    "DTPlatformVersion": "7.1", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 879478102, 
+    "name": "Google Slides", 
+    "url_schemes": [
+      "com.google.sso.577754653193", 
+      "googleslides", 
+      "googleslides-v2"
     ]
   }, 
   {
@@ -25852,6 +25912,90 @@
     ]
   }, 
   {
+    "CFBundleDisplayName": "Excel", 
+    "CFBundleExecutable": "Microsoft Excel iOS", 
+    "CFBundleIdentifier": "com.microsoft.Office.Excel", 
+    "CFBundleShortVersionString": "1.2.2", 
+    "CFBundleVersion": "1.2.2", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "7.1", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 586683407, 
+    "name": "Microsoft Excel", 
+    "url_schemes": [
+      "db-0ia8t1k6b62vybq", 
+      "db-5hpgpv95m5iv4f8", 
+      "excel", 
+      "excel-intunemam", 
+      "iad-excel1-2-0", 
+      "launch-excel", 
+      "launch-excel-intunemam", 
+      "ms-excel", 
+      "ms-excel-intunemam", 
+      "open-excel", 
+      "open-excel-intunemam"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "PowerPoint", 
+    "CFBundleExecutable": "Microsoft PowerPoint iOS", 
+    "CFBundleIdentifier": "com.microsoft.Office.Powerpoint", 
+    "CFBundleShortVersionString": "1.2.2", 
+    "CFBundleVersion": "1.2.2", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "7.1", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 586449534, 
+    "name": "Microsoft PowerPoint", 
+    "url_schemes": [
+      "db-0lcjqbkwaqtcrlr", 
+      "db-3sxfin2p8wz5e69", 
+      "iad-ppt1-2-0", 
+      "launch-ppt", 
+      "launch-ppt-intunemam", 
+      "ms-powerpoint", 
+      "ms-powerpoint-intunemam", 
+      "open-ppt", 
+      "open-ppt-intunemam", 
+      "powerpoint", 
+      "powerpoint-intunemam"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Word", 
+    "CFBundleExecutable": "Microsoft Word iOS", 
+    "CFBundleIdentifier": "com.microsoft.Office.Word", 
+    "CFBundleShortVersionString": "1.2.2", 
+    "CFBundleVersion": "1.2.2", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "7.1", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "item_id": 586447913, 
+    "name": "Microsoft Word", 
+    "url_schemes": [
+      "db-hv4ky0b0q51fksv", 
+      "db-kj733qq66jmzyir", 
+      "iad-word1-2-0", 
+      "launch-word", 
+      "launch-word-intunemam", 
+      "ms-word", 
+      "ms-word-intunemam", 
+      "open-word", 
+      "open-word-intunemam", 
+      "word", 
+      "word-intunemam"
+    ]
+  }, 
+  {
     "CFBundleDisplayName": "OfficeApp", 
     "CFBundleExecutable": "OfficeApp", 
     "CFBundleIdentifier": "com.microsoft.officemobile", 
@@ -25887,6 +26031,23 @@
     ], 
     "item_id": 410395246, 
     "name": "Microsoft OneNote for iPhone", 
+    "url_schemes": [
+      "onenote"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "OneNote", 
+    "CFBundleExecutable": "OneNotePad", 
+    "CFBundleIdentifier": "com.microsoft.onenoteiPad", 
+    "CFBundleShortVersionString": "2.5.2", 
+    "CFBundleVersion": "2005002", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "7.1", 
+    "UIDeviceFamily": [
+      2
+    ], 
+    "item_id": 478105721, 
+    "name": "Microsoft OneNote for iPad", 
     "url_schemes": [
       "onenote"
     ]
@@ -29197,6 +29358,24 @@
     "url_schemes": [
       "fb112953085413703"
     ]
+  }, 
+  {
+    "CFBundleExecutable": "Swype", 
+    "CFBundleIdentifier": "com.nuance.swype.app", 
+    "CFBundleShortVersionString": "1.1.1857", 
+    "CFBundleVersion": "1.1.1857", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "8.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7"
+    ], 
+    "item_id": 916365675, 
+    "name": "Swype", 
+    "url_schemes": []
   }, 
   {
     "CFBundleDisplayName": "NYTimes", 
@@ -38315,6 +38494,34 @@
     "name": "Cartwheel by Target", 
     "url_schemes": [
       "fb371453086257986", 
+      "pin1436296", 
+      "x-target-cartwheel"
+    ]
+  }, 
+  {
+    "CFBundleDisplayName": "Cartwheel", 
+    "CFBundleExecutable": "Cartwheel", 
+    "CFBundleIdentifier": "com.target.Cartwheel", 
+    "CFBundleShortVersionString": "1.7.1", 
+    "CFBundleVersion": "345", 
+    "DTPlatformVersion": "8.0", 
+    "MinimumOSVersion": "7.0", 
+    "UIDeviceFamily": [
+      1, 
+      2
+    ], 
+    "UIRequiredDeviceCapabilities": [
+      "armv7", 
+      "wifi"
+    ], 
+    "item_id": 659563061, 
+    "name": "Cartwheel by Target", 
+    "url_schemes": [
+      "com.target.Cartwheel", 
+      "fb267793103334077", 
+      "fb314783985269884", 
+      "fb371453086257986", 
+      "fb458257957568167", 
       "pin1436296", 
       "x-target-cartwheel"
     ]
