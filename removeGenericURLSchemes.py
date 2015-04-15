@@ -21,11 +21,22 @@ def main():
         if mappings.has_key(scheme):
             del mappings[scheme]
 
+    duplicates = []
+    for scheme in mappings.keys():
+        values = mappings[scheme]
+        if len(values) > 1:
+            duplicates.append({"scheme":scheme, "values":values})
+            del mappings[scheme]
+
     results = json.dumps(mappings, sort_keys=True)
     fo = args[0].output_file
     if isinstance(fo, str):
         fo = open(fo, 'w')
     fo.writelines(results)
+
+    print "Removed schemes with multiple apps"
+    for info in duplicates:
+        print info["scheme"] + "\t" + json.dumps(info["values"])
 
 if __name__ == '__main__':
     main()
